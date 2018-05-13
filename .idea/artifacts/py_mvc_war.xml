@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="py-mvc:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="py-mvc-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="py-mvc:war exploded" />
+    </root>
+  </artifact>
+</component>
