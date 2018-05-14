@@ -2,7 +2,7 @@ package org.py4j.framework.aop;
 
 import org.py4j.framework.annotation.Py4jPointCut;
 import org.py4j.framework.bean.ProxyHandler;
-import org.smart4j.framework.utils.ReflectionUtil;
+import org.py4j.framework.utils.ReflectionUtil;
 
 import java.lang.reflect.Method;
 

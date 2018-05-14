@@ -7,7 +7,7 @@ import org.py4j.framework.annotation.*;
 import org.py4j.framework.aop.EnhanceHandler;
 import org.py4j.framework.bean.Handler;
 import org.py4j.framework.utils.ClassTemplateUtil;
-import org.smart4j.framework.utils.ReflectionUtil;
+import org.py4j.framework.utils.ReflectionUtil;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
