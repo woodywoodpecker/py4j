@@ -28,7 +28,7 @@ import java.util.*;
  * @CreateTime 10.May.2018
  * @Version V1.0
  */
-public class PyDispatcherServlet extends HttpServlet {
+public class Py4jDispatcherServlet extends HttpServlet {
 
     private final Logger mLogger = Logger.getLogger(this.getClass());
 

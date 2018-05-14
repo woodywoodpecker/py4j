@@ -17,7 +17,7 @@
 
     <servlet>
         <servlet-name>py4j</servlet-name>
-        <servlet-class>org.py4j.framework.PyDispatcherServlet</servlet-class>
+        <servlet-class>org.py4j.framework.Py4jDispatcherServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
         <init-param>
             <param-name>scanBase</param-name>
