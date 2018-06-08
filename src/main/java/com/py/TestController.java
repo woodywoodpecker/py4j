@@ -1,6 +1,6 @@
-package com.chapter4;
+package com.py;
 
-import com.chapter4.po.Animal;
+import com.py.po.Animal;
 import org.py4j.framework.annotation.Py4jAutowired;
 import org.py4j.framework.annotation.Py4jController;
 import org.py4j.framework.annotation.Py4jRequestMapping;
@@ -14,7 +14,7 @@ import java.util.Map;
  * @Version V1.0
  */
 @Py4jController
-public class Chapter4Controller {
+public class TestController {
 
     @Py4jAutowired
     private Animal mAnimal;

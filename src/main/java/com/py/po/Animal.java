@@ -1,4 +1,4 @@
-package com.chapter4.po;
+package com.py.po;
 
 import org.py4j.framework.annotation.Py4jService;
 

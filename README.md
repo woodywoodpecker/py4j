@@ -1,2 +1,2 @@
-# py4j
-主要是为了能够自己手写mvc容器，实现ioc和aop等一系列功能做的训练。非项目式代码
+# py4j-mvc
+this is for self structure frame of mvc which contains ioc and aop feature

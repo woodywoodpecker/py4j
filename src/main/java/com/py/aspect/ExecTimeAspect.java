@@ -1,6 +1,6 @@
-package com.chapter4.aspect;
+package com.py.aspect;
 
-import com.chapter4.Chapter4Controller;
+import com.py.TestController;
 import org.apache.log4j.Logger;
 import org.py4j.framework.annotation.Py4jAspect;
 import org.py4j.framework.annotation.Py4jPointCut;
@@ -16,14 +16,14 @@ public class ExecTimeAspect {
 
     private final Logger mLogger = Logger.getLogger(this.getClass());
 
-    @Py4jPointCut(targetClass = Chapter4Controller.class,
+    @Py4jPointCut(targetClass = TestController.class,
                   targetMethod = "test1" ,
                   pointCutType = Py4jPointCut.PointCutType.BEFORE)
     public void testBefore (ProxyHandler handler) {
         mLogger.info("[ExecTimeAspect] [testBefore] => this is pointCut testBefore");
     }
 
-    @Py4jPointCut(targetClass = Chapter4Controller.class,
+    @Py4jPointCut(targetClass = TestController.class,
                   targetMethod = "test1" ,
                   pointCutType = Py4jPointCut.PointCutType.AFTER)
     public void testAfter (ProxyHandler handler) {
